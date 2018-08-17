@@ -5,6 +5,7 @@ import haxepunk.HXP;
 import haxepunk.graphics.Image;
 import haxepunk.input.Input;
 import Std;
+import haxepunk.utils.Log;
 
 
 class Player extends Entity
