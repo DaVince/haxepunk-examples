@@ -22,3 +22,16 @@ How do I compile/run these?
 1. [Get HaxePunk](https://haxepunk.com/).
 1. Run `lime test html5` (or whatever target you like).
 1. If you want to debug, run `lime test html5 -debug` instead.
+
+---
+
+These demos were written by DaVince for HaxePunk 4.x.  
+Please let me know if any of the demos break, contain mistakes, or if you have improvements.
+
+Credits
+-------
+
+The space ship graphics are borrowed under a free license from the classic
+MS-DOS game Tyrian and are copyright © [Daniel Cook](http://www.lostgarden.com/2007/04/free-game-graphics-tyrian-ships-and.html).
+The tile graphics in the Tiled maps are copyright © Nintendo; I will replace
+them with openly licensed graphics soon.
