@@ -6,9 +6,8 @@ class Main extends Engine {
 
 	/** Where the whole game begins. */
 	override public function init() {
-#if debug
-		HXP.console.enable();
-#end
+		Console.enable();
+
 		HXP.scene = new MainScene();
 	}
 
