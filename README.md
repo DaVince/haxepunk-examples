@@ -9,3 +9,5 @@ It is likely that in the future, I will add increasingly complex demos.
 Table of contents
 -----------------
 
+* [Demo 01](demo01) - Scene & entity creation and destruction
+* [Demo 02](demo02) - Keyboard input, sounds, collision, entities and their types
