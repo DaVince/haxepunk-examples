@@ -12,4 +12,4 @@ Table of contents
 * [Demo 01](demo01) - Scene & entity creation and destruction
 * [Demo 02](demo02) - Keyboard input, sounds, collision, entities and their types
 * [Demo 03](demo03) - 360 degree movement using trigonometry; setting sprite angles
-* [Demo 04](demo04) - Nothing of note - sprite bounding using a sine function
+* [Demo 04](demo04) - Nothing of note - sprite bouncing using a sine function
