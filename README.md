@@ -15,3 +15,10 @@ Table of contents
 * [Demo 04](demo04) - Nothing of note - sprite bouncing using a sine function
 * [Demo 05](demo05) - Small shmup demo with different enemy types and movements
 * [Demo 06](demo06) - Shmup demo, extended with sprite maps and Tiled map engine (through HaxePunkTmx)
+
+How do I compile/run these?
+---------------------------
+
+1. [Get HaxePunk](https://haxepunk.com/).
+1. Run `lime test html5` (or whatever target you like).
+1. If you want to debug, run `lime test html5 -debug` instead.

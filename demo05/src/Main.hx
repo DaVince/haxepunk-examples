@@ -1,7 +1,7 @@
 import haxepunk.Engine;
 import haxepunk.HXP;
 import openfl.ui.Mouse;
-import haxepunk.debug.Console;
+//import haxepunk.debug.Console;
 
 import scenes.MainScene;
 
@@ -11,8 +11,10 @@ class Main extends Engine
 	{
 		Mouse.hide();
 		
+		#if debug
 		Console.enable();
 		Mouse.show();
+		#end
 
 		HXP.scene = new MainScene();
 	}
