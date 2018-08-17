@@ -14,3 +14,4 @@ Table of contents
 * [Demo 03](demo03) - 360 degree movement using trigonometry; setting sprite angles
 * [Demo 04](demo04) - Nothing of note - sprite bouncing using a sine function
 * [Demo 05](demo05) - Small shmup demo with different enemy types and movements
+* [Demo 06](demo06) - Shmup demo, extended with sprite maps and Tiled map engine (through HaxePunkTmx)

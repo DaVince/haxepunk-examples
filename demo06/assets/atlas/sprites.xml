@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:bf3f4f48cfdeb89baf8608b65bd3129a:57ea667702a850e397fd9b6def6c3dd7:a3c246832ea35f0bdda766159aff8361$ -->
+<!--Format:
+n  => name of the sprite
+x  => sprite x pos in texture
+y  => sprite y pos in texture
+w  => sprite width (may be trimmed)
+h  => sprite height (may be trimmed)
+pX => x pos of the pivot point (relative to sprite width)
+pY => y pos of the pivot point (relative to sprite height)
+oX => sprite's x-corner offset (only available if trimmed)
+oY => sprite's y-corner offset (only available if trimmed)
+oW => sprite's original width (only available if trimmed)
+oH => sprite's original height (only available if trimmed)
+r => 'y' only set if sprite is rotated
+-->
+<TextureAtlas imagePath="graphics/atlas.png" width="302" height="121">
+    <sprite n="explosion-small" x="2" y="2" w="24" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="bullet-green" x="28" y="2" w="12" h="8" pX="0.5" pY="0.5"/>
+    <sprite n="bullet-red" x="42" y="2" w="4" h="11" pX="0.5" pY="0.5"/>
+    <sprite n="crystal" x="48" y="2" w="227" h="11" pX="0.5" pY="0.5"/>
+    <sprite n="bullet-fireball" x="277" y="2" w="9" h="12" pX="0.5" pY="0.5"/>
+    <sprite n="enemy01" x="2" y="16" w="192" h="19" pX="0.5" pY="0.5"/>
+    <sprite n="enemy02" x="2" y="37" w="192" h="21" pX="0.5" pY="0.5"/>
+    <sprite n="player" x="196" y="37" w="21" h="27" pX="0.5" pY="0.5"/>
+    <sprite n="enemy04-top" x="219" y="37" w="37" h="28" pX="0.5" pY="0.5"/>
+    <sprite n="coin" x="2" y="67" w="144" h="28" pX="0.5" pY="0.5"/>
+    <sprite n="enemy04-bottom" x="148" y="67" w="37" h="28" pX="0.5" pY="0.5"/>
+    <sprite n="enemy03" x="187" y="67" w="75" h="28" pX="0.5" pY="0.5"/>
+    <sprite n="scores" x="264" y="67" w="36" h="52" pX="0.5" pY="0.5"/>
+</TextureAtlas>

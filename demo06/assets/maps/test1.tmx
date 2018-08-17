@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.0.3" orientation="orthogonal" renderorder="right-down" width="25" height="170" tilewidth="16" tileheight="16" nextobjectid="73">
+ <tileset firstgid="1" name="pokemon" tilewidth="16" tileheight="16" tilecount="21000" columns="140">
+  <image source="tileset-pokemon.png" width="2240" height="2400"/>
+  <terraintypes>
+   <terrain name="rock" tile="7426"/>
+  </terraintypes>
+  <tile id="7143" terrain="0,0,0,"/>
+  <tile id="7144" terrain="0,0,,"/>
+  <tile id="7145" terrain="0,0,,0"/>
+  <tile id="7147" terrain=",,,0"/>
+  <tile id="7148" terrain=",,0,0"/>
+  <tile id="7149" terrain=",,0,"/>
+  <tile id="7283" terrain="0,,0,"/>
+  <tile id="7285" terrain=",0,,0"/>
+  <tile id="7287" terrain=",0,,"/>
+  <tile id="7288" terrain="0,0,,"/>
+  <tile id="7289" terrain="0,,,"/>
+  <tile id="7423" terrain="0,,0,0"/>
+  <tile id="7424" terrain=",,0,0"/>
+  <tile id="7425" terrain=",0,0,0"/>
+  <tile id="7426" terrain="0,0,0,0"/>
+ </tileset>
+ <layer name="1" width="25" height="170">
+  <data encoding="base64" compression="zlib">
+   eJzt2TEOwjAQBMCUdEj8/zf5GEI0CIXgy9knYqaYLtq1fHaKZL0sy/rDrren3nmvuSPy9/qyuXs5R3ve1/ktI9qz9XxrR2bvInsV7WhZW/ZsbZ2l7Kxb5tLjzEbnnO3JrgNgNhXv17Pnwz9wj6CO+wYAzGbkt4XoP4lea5/hW3TVXCr2ZkTfp6yKjrPMGQAAAAAAAAAA4OEORTfxtw==
+  </data>
+ </layer>
+ <layer name="2" width="25" height="170">
+  <data encoding="base64" compression="zlib">
+   eJztmw1yEzEMhdNwCWiSW/LTcgbgclyCMC1nIBqqwWMsS+9ZyzrpasbTZLLWZ8lr2Zbd3W6TTZaT7/drt2CTTTC5O/bL/ugocOpL+eqUbw7jS0DHu1O/3J/6jLdOfSl3l/J8+PNXP0v5dYBcvns6/KtLv785tct7rx8q+Xi0dd0y48fFh59BxsPl+Z8d34/qRzgj+iMcS/8ngmn1TbSPnwJjx7IlypA2Rp5t2bI7+e0TG/bB9rD+0noRBusvhGHZ0qurflqSUT4/C6O022PovLAH+s2yofX+Im2JMmrOSEzw4qNwng0bRvs8O/YzDDT238r8izAY/dZ739J9JuffiA2jc7vHGNUf8RP6/pS669iW2b+9uJDho+g7yupH3tEZ9YtEfeS9Q721aJTB2hD1kxRWkHi3tA0MA9XPMJi5bTYG4yeUwa5lkJwFy0DmCpYRHedsXyD9EV0DyBqjXudGJZJDUL/X7UHEs0XW4q35PJOx5vhABMkfsQzWlhkZjL8YQW1hRGxpjedMBsrKEHf8g9I6G8tmtMTNKTgSyVGK9Gzx6kdzlD1bvPpSdzR3we79rPaM5HVHONkMkdpnSzBqW5ZgiJS2RHLgjKxhy+yM6L53djteO0NzXVqs8VM+1zpH7jGi8cZ7rseQMfpYjFOPYeVPI/3hnT9Ff5+F0YqbkTMwhIH2J/NMKx/4ALwTs/THtTN07W+t4XSsWr+vHRNfAwO5QzGzHRmMzLuQ/9sOzW311r3ROd5ilCy9R1bfCatza6Pn9L2CnH3OeLadee4suh5f4um5+Jx1bphxx8tiaNsz9deMW4xXLWHuxKEMVq6V8eH4t9RnMiOMMh5LLFbGaF6mvKtbtzWDYZ1LaYxQBpsvKfVrjD93YsToHTp0jmIYkZwUw4jud0cYJUs4SzK0vuevUUbEloxY4uXJMxhentzL+zD/D4Aw0Hu6DMPbS2YwWKnn5GudBzfG9TLYdSHCQMWKPZkMKy6s3R8bYz5GxlzoMTLmQo/h5V0zGBmyzbUcY4nz7daeLpPTu8uYwYncldQcaV3Kvbfu8VvPsXcxSxtbOYTMont8NBf5GyXY8iU=
+  </data>
+ </layer>
+ <objectgroup name="objects">
+  <object id="60" name="startpoint" x="199.333" y="2664.67" width="1" height="1"/>
+ </objectgroup>
+ <layer name="collision" width="25" height="170" opacity="0.69">
+  <data encoding="base64" compression="zlib">
+   eJzt1ksOgzAQA1CWvf/dep+uKrUSkPnYYZKxJVYEvwaSqMehKIqifPN+ja/s8x0M9DuXUduIhN3vcRDJ9mf3JcrIOJ7fs4tx51jHdzE83yO6zq17PbOXrGcK27DOlemwDWvY/ZWNSv1eI5qV+zt93479XiMazQHbP2MtdTUi/bMMj7ODscMcZhkZRwbHiDpdjYhT1fBaiMj4f57pVDJGDiozjDsHnV2MWc5Tc5Ehg21Y1/ZoXAfjbEz2fhUj+x46Gdn7MvJGNjJk7GKMLM/YkeG5VjesYfdHDW+QXV4DmV33uYznDOSavephnhEIw3reRA3veYYw0OOv5rGicfYsy7A6Kxi/HVUN1FnZwUBFhgwZtr28gmGxZdQ3EH4XAxEZcQPtnPUjnbt+xv8274XsGjnM/qjxAct1I/A=
+  </data>
+ </layer>
+ <layer name="overhang" width="25" height="170">
+  <data encoding="base64" compression="zlib">
+   eJzt0sEJgDAMBVDnaEGXtM7nGI6gTiGeCyloPfke/ONPDskwALx3pDhnivt7o3+n5DhLjnfMjX5p9AEAAAAAAADgT9axTu8521TniV5zaOv1FxH3BAAAAAAAgG9dVrI30g==
+  </data>
+ </layer>
+</map>
