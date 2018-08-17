@@ -66,7 +66,7 @@ class Player extends Entity
     yLength = destY-origY;
     y = Math.sin(step/100*Math.PI)*yLength;
     y += origY;
-    HXP.console.log([yLength, origY, step, y]);
+    Log.debug([yLength, origY, step, y]);
 
     //NOT IMPORTANT RIGHT NOW
     //Reset within bounds
