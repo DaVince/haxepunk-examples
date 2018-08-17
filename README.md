@@ -9,5 +9,3 @@ It is likely that in the future, I will add increasingly complex demos.
 Table of contents
 -----------------
 
-* [01](test01) - Scene & entity creation and destruction
-* 

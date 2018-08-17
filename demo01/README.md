@@ -1,7 +1,8 @@
 HaxePunk demo 01
 ================
 
-##This demo showcases:
+This demo showcases:
+--------------------
 
 * Basic keyboard movement
 * Entity spawning (bullets)
